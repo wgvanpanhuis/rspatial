@@ -55,6 +55,9 @@ Stop at 2.3: Spatial Objects
 getClass("Spatial")
 ```
 
+```{r}
+save.image("C://Git_folders/rspatial/rspatial.Rproj")
+```
 
 
 
