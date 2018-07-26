@@ -51,6 +51,9 @@ plot(cars$dist, cars$speed)
 
 Stop at 2.3: Spatial Objects
 
+```{r}
+getClass("Spatial")
+```
 
 
 
