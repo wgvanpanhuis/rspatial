@@ -1,0 +1,59 @@
+---
+title: "Wilbert Rspatial Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+#################################################################################################################################################################
+
+Book: Applied Spatial Data Analysis with R, Roger S. Bivand, Edzer J. Pebesma, Virgilio Gómez-Rubio
+Book URL: http://gis.humboldt.edu/OLM/r/Spatial%20Analysis%20With%20R.pdf
+
+Additional, more in-depth books: 
+https://www.amazon.com/Statistical-Spatio-Temporal-Monographs-Statistics-Probability/dp/1466560231/ref=sr_1_3?ie=UTF8&qid=1532636251&sr=8-3&keywords=diggle%2C+statistics
+https://www.amazon.com/Handbook-Spatial-Statistics-Handbooks-Statistical-ebook/dp/B008GXJOXC/ref=sr_1_2?ie=UTF8&qid=1532636251&sr=8-2&keywords=diggle%2C+statistics
+
+Good R-based tutorial on spatial analysis (without musch stats background): http://www.rspatial.org/index.html
+
+GitHub repository: wgvanpanhuis/rspatial: https://github.com/wgvanpanhuis/rspatial.git
+Steps in RStudio to add the Git repository:
+- File -> New Project -> From version control repository -> Git -> copy Git repo URL and assign a folder on your computer to copy the repository
+- The local repository folder is the working directory for the notebook
+
+Steps to create an R Notebook:
+- File -> New File -> R Notebook -> save as your name.Rmd, if problems, install required packages until it works
+
+Install packages for Spatial Data Analysis: "ctv"
+library(ctv)
+install.views("Spatial") ## This will install any packages needed to do texamples for the book, OK if some don't work ##
+
+```{r}
+class(cars)
+```
+```{r}
+summary(cars)
+```
+```{r}
+str(cars)
+```
+```{r}
+plot(cars$dist, cars$speed)
+```
+
+Stop at 2.3: Spatial Objects
+
+
+
+
+
+
+
+
+
+
