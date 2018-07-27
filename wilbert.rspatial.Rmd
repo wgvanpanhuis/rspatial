@@ -67,11 +67,12 @@ S
 
 
 ```{r}
-save.image("~/rspatial")
+save.image("wilbert.rspatial.RData")
 ```
 
+
 ```{r}
-load()
+load("wilbert.rspatial.RData")
 ```
 
 
