@@ -56,7 +56,11 @@ getClass("Spatial")
 ```
 
 ```{r}
-save.image("C://Git_folders/rspatial/rspatial.Rproj")
+save.image("C://Git_folders/rspatial/rspatial.RData")
+```
+
+```{r}
+load()
 ```
 
 
