@@ -71,10 +71,6 @@ save.image("wilbert.rspatial.RData")
 ```
 
 
-
-
-
-
 ```{r}
 load("wilbert.rspatial.RData")
 ```
